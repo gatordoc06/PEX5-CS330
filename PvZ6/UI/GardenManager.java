@@ -17,6 +17,8 @@ public class GardenManager {
         seedPackets = new ArrayList<>();
         addSeedPacket(Peashooter::new, 0, 0);
         addSeedPacket(Sunflower::new, 50, 0);
+        //Lopez: Requirement C - Wallnuts
+        addSeedPacket(Wallnut::new, 0, 70);
     }
     
     
